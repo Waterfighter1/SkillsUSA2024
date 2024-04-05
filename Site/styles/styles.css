@@ -1,0 +1,7 @@
+nav {
+    padding-top: 0 !important; /* override bs */
+}
+nav > * {
+    background-color: #8BE25C !important;
+    overflow: hidden;
+}
