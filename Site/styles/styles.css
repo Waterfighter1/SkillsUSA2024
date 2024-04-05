@@ -6,6 +6,11 @@ nav > * {
     background-color: #8BE25C !important;
     overflow: hidden;
 }
+.nav-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .banner {
     width: 100%;
