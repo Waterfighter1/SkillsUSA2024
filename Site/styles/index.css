@@ -1,6 +1,14 @@
+body {
+    background-color: #e7e7e7;
+}
+
 .banner {
     width: 100%;
     height: 500px;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-color: #D16B6B;
+    border-width: 5px;
 }
 
 #home.banner {
@@ -12,6 +20,8 @@
 
 .duel_object {
     display: flex;
+    width: 70%;
+    margin: 0px 15%;
 }
 
 .duel_object > * {
@@ -20,11 +30,60 @@
 }
 
 .cta {
-    width: 50%;
-    margin: 25% 25% 25% 25%;
-    height: 200px;
+    width: 40%;
+    /*margin: 100px 30%;*/
+    height: 100px;
+    line-height: 90px;
+    color: black;
+    font-size: 20px;
     text-decoration: none;
-    background-color: grey;
+    background-color: #D16B6B;
     border-radius: 25px;
     display:block;
+    min-width: 175px;
+    margin:auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-width: 5px;
+    border-color: #aa5757;
+}
+
+#adopt.cta {
+    background-color: #8bE25C;
+    border-color: #72b94c;
+}
+
+#news {
+    display: flex;
+}
+
+#news > div {
+    width: 40%;
+    margin: 0px 5%;
+}
+
+#card_cta {
+    background-color:#D16B6B;
+    border-color:#D16B6B;
+}
+
+@media screen and (max-width: 800px) {
+    .cta {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cta {
+        font-size: 10px;
+        width: 80%;
+        margin: 100px 10%;
+        height: 50px;
+        line-height: 50px;
+        min-width: 0px;
+      
+    }
 }
