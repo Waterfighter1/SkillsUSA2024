@@ -1,0 +1,16 @@
+h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.availiable {
+    display: flex;
+}
+
+.animal {
+    width: 40%;
+    margin: 20px 5%;
+    float: left;
+}
+
